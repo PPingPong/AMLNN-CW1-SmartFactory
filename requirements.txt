@@ -1,0 +1,12 @@
+# Versions the submitted notebook was executed with (Python 3.13).
+# Google Colab already provides compatible versions of most of these; only ucimlrepo and kagglehub need installing.
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+pillow==12.3.0
+tensorflow==2.21.0
+keras==3.15.1
+ucimlrepo==0.0.7
+kagglehub==1.0.2

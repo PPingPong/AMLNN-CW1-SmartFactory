@@ -1,0 +1,16 @@
+,Random Forest,MLP,CNN V2 (grouped test),CNN V2 (second export)
+Task,failure from sensors,failure from sensors,defect from image,defect from image
+Test cases,1500,1500,1020,1279
+Faulty in test,51,51,630,775
+Precision,0.958,0.843,0.993,0.94
+Recall,0.902,0.843,0.944,0.77
+F1,0.929,0.843,0.968,0.847
+PR-AUC,0.937,0.89,0.997,0.942
+MCC,0.927,0.838,0.922,0.679
+FN,5,8,35.0,178
+FP,2,8,4.0,38
+Train time (s),2.2731001377105713,47.746792793273926,620.8609189987183,—
+Inference (ms/sample),0.052068233489990234,0.044748783111572266,1.2429630055147058,—
+Size (MB),0.713773,0.039428,0.321284,—
+Needs GPU,no,no,for training (practical),—
+Built-in interpretability,"feature importance, inspectable trees","none (post-hoc: permutation, SHAP)","none (post-hoc: Grad-CAM, feature maps)",—

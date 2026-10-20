@@ -1,0 +1,6 @@
+,MLP,params,epochs run,best epoch,train PR-AUC (final),val PR-AUC (model kept),val ROC-AUC,train time (s)
+0,Tiny [4],53,100,100,0.591,0.458,0.91,22.792
+1,"Medium [32,16]",929,100,100,0.893,0.704,0.923,23.933
+2,"Large [128,64]",9857,100,95,0.944,0.747,0.917,24.054
+3,Large + L2 + dropout + early stop,9857,193,168,0.89,0.787,0.938,47.747
+4,Large + reg + balanced class weights,9857,158,133,0.812,0.747,0.928,40.204
